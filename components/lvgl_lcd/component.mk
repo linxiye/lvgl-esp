@@ -1,0 +1,6 @@
+#
+# Component Makefile
+#
+COMPONENT_SRCDIRS := . tft touch
+
+COMPONENT_ADD_INCLUDEDIRS := $(COMPONENT_SRCDIRS) .
